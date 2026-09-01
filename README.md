@@ -1,17 +1,101 @@
-# weather_explorer
+# Weather Explorer 🌤️
 
-A new Flutter project.
+A cross-platform weather application built with **Flutter and Dart**, providing users with current weather conditions and forecasts for locations around the world.
+
+The project demonstrates modern Flutter development practices, including API integration, asynchronous data handling, responsive UI design, and clean separation of application layers.
+
+## Features
+
+* 🌤️ View current weather conditions
+* 🌡️ Display temperature and weather details
+* 📍 Search weather by location
+* 📅 View weather forecasts
+* 🔄 Pull to refresh weather data
+* 📱 Responsive UI for different screen sizes
+* ⚡ Asynchronous API data loading
+* ❌ Error and loading state handling
+
+## Tech Stack
+
+* **Flutter**
+* **Dart**
+* REST API
+* JSON
+* Material Design
+
+## Architecture
+
+The application is structured to keep UI, business logic, and data access separated for easier maintenance and testing.
+
+```text
+lib/
+├── models/          # Weather and API data models
+├── services/        # API and external data services
+├── screens/         # Application screens
+├── widgets/         # Reusable UI components
+└── main.dart        # Application entry point
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK
+* Dart SDK
+* Android Studio or Xcode
+* An Android or iOS device/emulator
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the repository:
+
+```bash
+git clone git@github.com:SaraHung1/weather_explorer.git
+```
+
+Navigate to the project:
+
+```bash
+cd weather_explorer
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## Screenshots
+
+*Add screenshots of the application here.*
+
+## Platform Support
+
+| Platform | Supported |
+| -------- | --------- |
+| Android  | ✅         |
+| iOS      | ✅         |
+| Web      | ✅         |
+| macOS    | ✅         |
+
+## What This Project Demonstrates
+
+This project was built to demonstrate practical cross-platform development skills with Flutter, including:
+
+* Building reusable Flutter UI components
+* Managing asynchronous API requests
+* Working with REST APIs and JSON
+* Handling loading, success, and error states
+* Creating responsive layouts
+* Structuring a maintainable Flutter application
+* Building and running applications across multiple platforms
+
+## License
+
+This project is for portfolio and demonstration purposes.
